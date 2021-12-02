@@ -1,0 +1,31 @@
+Dear user, welcome to the Help tab.
+
+WI-APP PREDICTOR is an application developped by the Wi-Hi(gh) team on Python with the Tkinter library. This interface aims to suggest the frequency you should use to communicate quickly all over the world with your ham-radio.
+
+To do that, some inputs are required :
+
+ - time : choose manually the time you want (format "hhmm") or press the automatic time button which sets the current time.
+
+ - sender location : enter your current location (format "lat/long") or press the automatic locator button which sets your current position.
+
+ - receiver location : enter the location you want to reach while communicating (format "lat/long").
+
+Once the inputs are choosen, press the "Give me frequency" button and a suggestion tab will appear. The given frequency has been decided by an algorithm based on Machine Learning processes. 
+
+Other features are available on WI-APP PREDICTOR :
+
+ - FF in numbers : that button shows a list of statistics about this Fab Friday project. You can see how much time our team spent on it, the key numbers and other interesting stats.
+
+ - Rx/Tx Map : this feature displays a map our team designed to see every sender location from the initial dataset.
+
+
+/!\ Features in coming /!\
+
+WI-APP version 1.0 uses the Gradient Boosting Classifier model from sklearn. Please notice that the location is not taken as parameter for the training part, this option is coming along WI-APP version 1.1 coming soon.
+
+Are you bored to choose specific "lat/long" for the receiver location ? The solution is coming along WI-APP version 1.1. A new feature able to provide a list of cities (>10,000 items) will be available.
+
+
+
+
+WI-APP PREDICTOR version 1.0
